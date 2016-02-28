@@ -7,7 +7,7 @@
 
 from flask import render_template, Blueprint, request, flash, redirect, url_for
 
-from forms import SignUpForm
+from project.main.forms import SignUpForm
 from project import db
 from project.models import Email
 
